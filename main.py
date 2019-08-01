@@ -78,4 +78,4 @@ if __name__ == '__main__':
             print(out.shape)
             cv2.imwrite('./numbers_n/created/'+number+region+'.jpg', out)
             print('[SUCCESS WRITE]: {}'.format(number+region))
-            view(out)
+            # view(out)
